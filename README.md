@@ -9,8 +9,6 @@ This code is for a chatbot that can participate in conversations in Final Fantas
 ```lua
 local params = {
         host = "a-example-link-o.trycloudflare.com", --- replace this with your cloudflare link https://colab.research.google.com/drive/1ZvYq4GmjfsyIkcTQcrBhSFXs8vQLLMAS
-        path = "/api/v1/generate",
-        port = 443,
 ```
 
 ## Customization
