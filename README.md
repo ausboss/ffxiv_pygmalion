@@ -5,10 +5,10 @@ This code is for a chatbot that can participate in conversations in Final Fantas
 
 ### You can run the model locally (requires 16gb+ of VRAM) or use google's gpus for **free** with **this [COLLAB](https://colab.research.google.com/drive/1ZvYq4GmjfsyIkcTQcrBhSFXs8vQLLMAS)** 
 
-*Note: The host in the code needs to be replaced with your own KoboldAI UI link for the chatbot to function correctly.
+*Note: The host in the code needs to be replaced with your own KoboldAI UI link for the chatbot to function correctly. **Do not include the https:// part!**
 ```lua
 local params = {
-        host = "https://a-example-link-o.trycloudflare.com", --- replace this with your cloudflare link https://colab.research.google.com/drive/1ZvYq4GmjfsyIkcTQcrBhSFXs8vQLLMAS
+        host = "a-example-link-o.trycloudflare.com", --- replace this with your cloudflare link https://colab.research.google.com/drive/1ZvYq4GmjfsyIkcTQcrBhSFXs8vQLLMAS
         path = "/api/v1/generate",
         port = 443,
 ```
