@@ -47,7 +47,7 @@ function chatbot(message)
 
     local json_chat_message = json.encode(prompt)
     local params = {
-        host = "https://a-example-link-o.trycloudflare.com", --- replace this with your cloudflare link https://colab.research.google.com/drive/1ZvYq4GmjfsyIkcTQcrBhSFXs8vQLLMAS
+        host = "a-example-link-o.trycloudflare.com", --- replace this with your cloudflare link from the collab. do not include https://  COLLAB: https://colab.research.google.com/drive/1ZvYq4GmjfsyIkcTQcrBhSFXs8vQLLMAS 
         path = "/api/v1/generate",
         port = 443,
         https = true,
