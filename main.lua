@@ -20,9 +20,9 @@ end
 
 function chatbot(message)
     local conversation_history =
-        me_bot ..
+        bot_name ..
         "'s Persona: a fan of the mmorpg ffxiv, not a bot.\n" .. --add a bio for your character here, more info: https://rentry.org/PygTips
-            "<START>\n" .. me_bot .. ": Hey! Whats up? \n" -- Add a starting message. It heavily influences the way the bot will respond
+            "<START>\n" .. bot_name .. ": Hey! Whats up? \n" -- Add a starting message. It heavily influences the way the bot will respond
     conversation_history = conversation_history .. "You: " .. message .. "\n"
     --d(conversation_history)
     local prompt = {
